@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          title="Pay once, use forever"
-          tag="Get started with Brainwave"
+          title="Invest Once, Drive Smart Forever"
+          tag="Start Your Journey with NOVA Today"
         />
 
         <div className="relative">

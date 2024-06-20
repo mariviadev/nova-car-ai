@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { novaServices, novaServicesIcons } from "../constants";
 // import { GradientLight } from "./design/Benefits";
 import Generating from "./Generating";
 import {
@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications."
+          title="Meet your next-gen &nbsp;driving&nbsp;companion."
+          text="Nova unlocks the power of fully autonomous driving for you."
         />
 
         <div className="relative">
@@ -35,10 +35,10 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Smartest AI</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Nova unlocks the potential of AI-powered driving.
               </p>
               <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
+                {novaServices.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -51,7 +51,7 @@ const Services = () => {
             </div>
 
             {/* <GradientLight />  great "mistake", looks good as well */}
-            <Generating className="absolute left-4 right-4 bottom-4 border border-n-1/10 lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
+            <Generating className="absolute left-4 right-4 bottom-4 border border-n-1/10 lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" text=" Road closure detected. Calculating an alternate route..." />
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
@@ -67,10 +67,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/10 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                <h4 className="h4 mb-4">Intelligent Predictions</h4>
+                <p className="body-2 mb-[1rem] text-n-3">
+                  Nova regularly performs real-time diagnostics on critical systems and alerts you to potential issues early, ensuring your vehicle remains in peak condition for a stress-free driving experience.
                 </p>
               </div>
 
@@ -79,13 +78,12 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Personalized Driving Coach</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  One of the world’s most powerful AI photo and video art
-                  generation engines. What will you create?
+                  NOVA records your daily trips, highlights memorable moments, and provides insights for improving your driving skills, making every journey a learning experience.
                 </p>
                 <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
+                  {novaServicesIcons.map((item, index) => (
                     <li
                       key={index}
                       className={`flex items-center justify-center rounded-2xl ${

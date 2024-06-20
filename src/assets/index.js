@@ -1,7 +1,7 @@
-import brainwave from "./brainwave.svg";
+import nova from "./nova.svg";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import novaSymbol from "./nova-symbol.svg";
+import novaWhiteSymbol from "./nova-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -27,14 +27,14 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import audible from "./collaboration/audible.svg";
+import eat from "./collaboration/eat.svg";
+import fuel from "./collaboration/fuel.svg";
+import google from "./collaboration/google.svg";
+import maps from "./collaboration/maps.svg";
+import spotify from "./collaboration/spotify.svg";
+import waze from "./collaboration/waze.svg";
+import youtube from "./collaboration/youtube.svg";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -52,7 +52,7 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
-import notification1 from "./notification/image-1.png";
+import notification1 from "./notification/image-1.svg";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
@@ -76,12 +76,12 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  nova,
   check,
   check2,
   loading1,
-  brainwaveSymbol,
-  brainwaveWhiteSymbol,
+  novaSymbol,
+  novaWhiteSymbol,
   play,
   gradient,
   smallSphere,
@@ -103,14 +103,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  audible,
+  eat,
+  fuel,
+  google,
+  maps,
+  spotify,
+  waze,
+  youtube,
   service1,
   service2,
   service3,

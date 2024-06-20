@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl text-center"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Drive Smarter, Drive Safer, Drive with NOVA"
         />
 
         <div className="flex flex-wrap gap-10 mb-10 justify-center">

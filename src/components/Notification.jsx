@@ -1,4 +1,3 @@
-import { notificationImages } from "../constants";
 import { notification1 } from "../assets";
 
 const Notification = ({ className, title }) => {
@@ -10,15 +9,15 @@ const Notification = ({ className, title }) => {
     >
       <img
         src={notification1}
-        width={62}
-        height={62}
+        width={58}
+        height={58}
         alt="image"
         className="rounded-xl"
       />
       <div className="flex-1">
         <h6 className="mb-1 font-semibold text-base">{title}</h6>
         <div className="flex items-center justify-between">
-          <ul className="flex -m-0.5">
+          {/* <ul className="flex -m-0.5">
             {notificationImages.map((item, index) => (
               <li
                 key={index}
@@ -33,8 +32,8 @@ const Notification = ({ className, title }) => {
                 />
               </li>
             ))}
-          </ul>
-          <div className="body-2 text-n-13">1m ago</div>
+          </ul> */}
+          <div className="body-2 text-n-13">3m ago</div>
         </div>
       </div>
     </div>
