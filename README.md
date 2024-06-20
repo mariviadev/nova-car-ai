@@ -24,7 +24,7 @@ This is a fictional product, designed solely for portfolio purposes, and does no
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mariam1203/nova-car-ai.git
+   git clone https://github.com/MariviaDev/nova-car-ai.git
    ```
 2. Navigate to the project directory:
    ```bash
