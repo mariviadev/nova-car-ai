@@ -66,7 +66,7 @@ const Services = () => {
                 />
               </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/10 to-n-8/90 lg:p-15">
+              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/10 to-n-8/90 lg:p-12">
                 <h4 className="h4 mb-4">Intelligent Predictions</h4>
                 <p className="body-2 mb-[1rem] text-n-3">
                   Nova regularly performs real-time diagnostics on critical systems and alerts you to potential issues early, ensuring your vehicle remains in peak condition for a stress-free driving experience.
