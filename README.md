@@ -1,6 +1,6 @@
 # NOVA (Next-generation Onboard Vehicle Assistant) - Product Concept Website
 
-<img width="883" alt="image" src="https://github.com/mariam1203/nova-car-ai/assets/52761858/573838e1-822e-49c6-92d5-bca5cd07992f">
+<img width="1319" alt="image" src="https://github.com/user-attachments/assets/77faa5af-c87b-4928-ae4b-17686049dd03">
 
 ## Introduction
 
